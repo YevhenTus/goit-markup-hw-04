@@ -47,7 +47,6 @@ ul {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #ececec;
- 
 }
 
 .logo {
@@ -58,8 +57,6 @@ ul {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color:var(--accent-color)
-  
-  
 }
 .logo-web {
   color: var(--primary-text-color);}
@@ -73,10 +70,9 @@ ul {
 .site-nav .item + .item{
 margin-left: 50px;  
 }
-.site-nav .item{
+/* .site-nav .item{
 
-}
-
+} */
 
 .site-nav .link {
   display: flex;
@@ -84,9 +80,7 @@ margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.02em;
-  
-  
+  letter-spacing: 0.02em; 
 }
 .site-nav .link:hover,
 .site-nav .link:focus
@@ -135,10 +129,12 @@ color: var(--accent-color);}
   
 }
 .hero-section{
-background: #2F303A;
-text-align: center;
-padding-top: 200px;
-padding-bottom: 200px;
+  background: #2F303A;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(../imeges/header\ pictures\ optimize.jpg);
+
 }
 .hero-title{
   text-align: center;
@@ -276,18 +272,14 @@ padding-bottom: 200px;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
 }
-
 .position-team{
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--secondary-text-color);
-  /* margin-bottom: 30px; */
 }
-
 .names-content{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -297,21 +289,15 @@ padding-bottom: 200px;
 .footer{
   background: #2F303A;
   padding: 60px;
-
-  
 }
 .logo-studio{
   color: var(--white-color);
   box-sizing: border-box;
   margin-top: 60px;
-  
-  
 }
 .addres-global{
   font-style: normal;
   margin-top: 20px;
-  
-
 }
 .address-item{
   margin-bottom: 9px;
@@ -399,7 +385,6 @@ padding-bottom: 200px;
     max-width: 100%;
     height: auto;
 }
-
 
 .projects-item {
   margin:0 auto;
