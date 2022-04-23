@@ -112,10 +112,9 @@ color: var(--accent-color);}
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.contacts-nav 
-.link-cont :hover {
+.contact-item
+.link-cont:hover {
   color: var(--accent-color);}
-
 
 /* ------------------Hero----------------- */
 
